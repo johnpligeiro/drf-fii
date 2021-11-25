@@ -5,9 +5,9 @@
 # Agora se você precisar construir uma API “com tudo dentro” (isto é: criação, deleção, atualização e listagem), escolha a ModelViewSet: perceba que ela estende todos os Mixins disponíveis.
 
 from django.shortcuts import render
-from serializers import FundoImobiliarioSerializer
+from api.serializers import FundoImobiliarioSerializer
 from rest_framework import viewsets, permissions
-from models import FundoImobiliario
+from api.models import FundoImobiliario
 
 
 # Create your views here.
